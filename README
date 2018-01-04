@@ -1,0 +1,13 @@
+1. Kompilujemy Server
+javac Server.java
+
+2. Kompilujemy Clienta
+javac Client.java
+
+3. Uruchamiamy Server
+java -classpath ".;./hsqldb.jar" Server
+
+4. Uruchamiamy dwóch klientów
+java Client
+
+Jeżeli została odnaleziona wcześniej przerwana rozgrywka, wówczas jej przebieg zostanie wczytany, a kolejne ruchy wykonane w czasie owej rozgrywki zostaną pokazane poszczególnym graczom i gra będzie mogła być kontynuowana.
