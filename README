@@ -1,13 +1,13 @@
-1. Kompilujemy Server
+1. Compile Server
 javac Server.java
 
-2. Kompilujemy Clienta
+2. Compile Client
 javac Client.java
 
-3. Uruchamiamy Server
+3. Run Server
 java -classpath ".;./hsqldb.jar" Server
 
-4. Uruchamiamy dwóch klientów
+4. Run two clients
 java Client
 
-Jeżeli została odnaleziona wcześniej przerwana rozgrywka, wówczas jej przebieg zostanie wczytany, a kolejne ruchy wykonane w czasie owej rozgrywki zostaną pokazane poszczególnym graczom i gra będzie mogła być kontynuowana.
+If there's a game that was interrupted before, then server will load it and show players the course of game. 
